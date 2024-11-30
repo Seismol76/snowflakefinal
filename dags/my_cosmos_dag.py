@@ -4,7 +4,7 @@ from cosmos import DbtDag, ProjectConfig, ProfileConfig, ExecutionConfig
 from cosmos.profiles import SnowflakeUserPasswordProfileMapping
 from pathlib import Path
 
-dbt_project_path = Path("C:/snowflake1/dbt_airflow/snowflakefinal/dags/dbt/cosmosproject")
+dbt_project_path = Path("/usr/local/airflow/dags/dbt/cosmosproject")
 
 profile_config = ProfileConfig(profile_name="default",
                                target_name="dev",
