@@ -3,3 +3,5 @@
 
 astronomer-cosmos
 apache-airflow-providers-snowflake
+build-essential
+/tmp/astro_provider_snowflake-0.0.0-py3-none-any.whl
